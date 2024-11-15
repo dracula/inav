@@ -10,12 +10,12 @@ mkdir /home/$USER/.config/lnav/configs/installed/`
 
 Now you can download the theme file:
 ```bash
-wget https://raw.githubusercontent.com/******* `
+wget https://raw.githubusercontent.com/dracula/lnav/refs/heads/main/dracula.json`
 ```
 
 #### Install manually
 
-Download using the [GitHub `.zip` download](https://github.com/dracula/******.zip) option and unzip them.
+Download using the [GitHub `.zip` download](https://github.com/dracula/lnav/archive/refs/heads/master.zip) option and unzip them.
 
 #### Activating theme
 
