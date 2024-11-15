@@ -1,19 +1,25 @@
-### [Foobar](https://foobar.com)
+### [lnav](https://lnav.com)
 
-#### Install using Git
+#### Install using wget
 
-If you are a git user, you can install the theme and keep up to date by cloning the repo:
-
+You can download the theme-file directly from Github. 
+Generate `installed` folder in your config path if not existing:
 ```bash
-git clone https://github.com/dracula/foobar.git
+mkdir /home/$USER/.config/lnav/configs/installed/`
+```
+
+Now you can download the theme file:
+```bash
+wget https://raw.githubusercontent.com/******* `
 ```
 
 #### Install manually
 
-Download using the [GitHub `.zip` download](https://github.com/dracula/foobar/archive/main.zip) option and unzip them.
+Download using the [GitHub `.zip` download](https://github.com/dracula/******.zip) option and unzip them.
 
 #### Activating theme
 
-1. Do this;
-2. Then that;
-3. Boom! It's working ✨
+1. Copy the `dracula.json` to your `$USER/.config/lnav/configs/installed/` folder
+2. Open `lnav`
+3. Use the command `:config /ui/theme dracula`
+4. Color! 
